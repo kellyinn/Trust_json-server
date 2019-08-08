@@ -1,4 +1,4 @@
-# airbnb_json-server
+# Trust_json-server
 
 > A Vue.js project
 
