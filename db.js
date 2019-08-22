@@ -913,38 +913,55 @@ const data = {
     ],
     springTrip: [
         {
+            id: 100,
             imgUrl: 'https://z1.muscache.cn/im/pictures/3b14f0f8-77aa-4b79-af2b-7a631f91a845.jpg?aki_policy=large',
             title: '在春天里闻花香，听风来，晒太阳',
             titleDesc: '别让春暖花开成为只在照片上见过的风景。我们精选了 6 个国内赏花地，在这里你可以扑向春天，沉浸在大自然间，感受生机。',
-            roomDesc: '国内赏花目的地推荐',
+            roomDesc: '国内赏花地推荐',
             roomNumber: null,
-            price: false,
-            oldPrice: false,
+            price: 400,          
             evaluate: false,
-            cencel: false
+            cencel: false,
+            province:'北京市',
+            city:'北京市',
+            name:'延庆',
+            ota:'飞猪',
+            flag:1
         },
         {
+            id: 101,
             imgUrl: 'https://z1.muscache.cn/im/pictures/1e4b4764-05d1-4425-9e26-3279a62f5c00.jpg?aki_policy=large',
             title: '避开人潮，来九州探索自然乐趣',
             titleDesc: '这里有悠久的历史，也有电影中的乡野景色。泡温泉，赏樱花，亲近自然，放松一下吧。',
             roomDesc: '赏樱目的地推荐',
             roomNumber: null,
-            price: false,
+            price: 5999,
             oldPrice: false,
             evaluate: false,
-            cencel: false
+            cencel: false,
+            province:'日本',
+            city:'九州岛',
+            name:'长崎',
+            ota:'去哪儿',
+            flag:1
         },
         {
+            id: 102,
             imgUrl: 'https://z1.muscache.cn/im/pictures/610bc35c-382a-4f72-a72a-6bdb14cc0d57.jpg?aki_policy=large',
             title: '去北海道，抓住樱花季的尾巴',
             titleDesc: '4 月底，北海道春天才刚刚到来。不必匆忙追赶樱前线，悠然享受冰雪溶化后生机盎然的北方岛屿。',
             roomDesc: '赏樱目的地推荐',
             roomNumber: null,
-            price: false,
+            price: 500,
             oldPrice: false,
             evaluate: false,
-            cencel: false
-        }
+            cencel: false,
+            province:'日本',
+            city:'北海道',
+            name:'札幌',
+            ota:'飞猪',
+            flag:1
+        },
     ],
     hotPlace: [
         {
